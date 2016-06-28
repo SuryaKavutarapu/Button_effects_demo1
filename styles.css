@@ -29,8 +29,10 @@ a{
   transition:  all 300ms ;
   letter-spacing: 0.5px;
 }
-
-
+a:hover{
+  text-decoration: none;
+  color:#fff;
+}
 
 /*simple shadow effect with spread*/
 .first:hover{
@@ -65,12 +67,12 @@ border : 1px solid rgba(241,196,15 ,1);
 position: relative;
 right: 0px;
 bottom: 0px;
-background: rgba(231,76,60 ,1);
-border : 1px solid rgba(231,76,60 ,1);
+background:  rgba(241,196,15 ,1);
+border : 1px solid  rgba(241,196,15 ,1);
 }
 
 .fourth:hover{
-  box-shadow: -2px -2px 0px white , -4px -4px 0px rgba(231,76,60 ,1) ;
+  box-shadow: -2px -2px 0px white , -4px -4px 0px  rgba(241,196,15 ,1) ;
    right: -4px;
   bottom: -4px;
 }
@@ -158,4 +160,36 @@ bottom: 6px;
 .thirteen:hover{
   box-shadow:  -100px 0px 0px rgba(231,76,60 ,1) inset;
   color: white;
+}
+
+
+
+.fourteen{
+position: relative;
+top:0px;
+left:0px;
+background: rgba(241,196,15 ,1);
+border : 1px solid rgba(241,196,15 ,1);
+}
+
+.fourteen:hover{
+  box-shadow: -2px 2px 0px white, -4px 4px 0px rgba(241,196,15 ,1);
+  top: -4px;
+  left: -4px;
+}
+
+/*reverse movement effect*/
+
+.fifteen{
+position: relative;
+right: 0px;
+bottom: 0px;
+background:  rgba(241,196,15 ,1);
+border : 1px solid rgba(241,196,15 ,1);
+}
+
+.fifteen:hover{
+  box-shadow: 2px -2px 0px white , 4px -4px 0px  rgba(241,196,15 ,1) ;
+   right: -4px;
+  bottom: -4px;
 }
